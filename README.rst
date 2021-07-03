@@ -34,3 +34,6 @@ License
 -------
 
 This project is released under an `MIT License`_.
+
+.. _mit license: https://ahmed.mit-license.org
+.. _available on PyPI: http://pypi.python.org/pypi/ArabicNames
