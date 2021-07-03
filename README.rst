@@ -1,5 +1,5 @@
 ArabicNames
-=====
+===========
 
 
 Random arabic name generator
@@ -16,7 +16,17 @@ The script is `available on PyPI`_.  To install with pip::
 Usage
 -----
 
-Names can be used as a command line utility or imported as a Python package.
+ArabicNames can be used as a command line utility or imported as a Python package.
+
+
+Command Line Usage
+~~~~~~~~~~~~~~~~~~
+To use the script from the command line:
+
+.. code-block:: bash
+
+    $ ArabicNames
+    Jahid Taher
 
 
 Python Package Usage
@@ -26,8 +36,8 @@ Here are examples of all current features:
 .. code-block:: pycon
 
     >>> import ArabicNames
-    >>> names.get_full_name()
-    u'Muhtadi El-Alaoui'
+    >>> ArabicNames.get_full_name()
+    'Muhtadi El-Alaoui'
 
 
 License
